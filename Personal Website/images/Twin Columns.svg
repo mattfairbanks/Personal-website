@@ -1,0 +1,18 @@
+<svg width="101" height="702" viewBox="0 0 101 702" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M99.5 51.3333C99.5 78.6762 77.5572 100.833 50.5 100.833C23.4428 100.833 1.5 78.6762 1.5 51.3333C1.5 23.9905 23.4428 1.83333 50.5 1.83333C77.5572 1.83333 99.5 23.9905 99.5 51.3333Z" stroke="black"/>
+<path d="M99.5 151C99.5 178.343 77.5572 200.5 50.5 200.5C23.4428 200.5 1.5 178.343 1.5 151C1.5 123.657 23.4428 101.5 50.5 101.5C77.5572 101.5 99.5 123.657 99.5 151Z" stroke="black"/>
+<line x1="1" y1="100.833" x2="100" y2="100.833" stroke="black" stroke-dasharray="6 8"/>
+<rect x="1.5" y="1.5" width="98" height="199" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(0.703545 0.710651 -0.703545 0.710651 1 1.33325)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(-0.703545 0.710651 0.703545 0.710651 100 1.33325)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(0.703545 0.710651 -0.703545 0.710651 1 101.333)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(-0.703545 0.710651 0.703545 0.710651 100 101.333)" stroke="black" stroke-dasharray="6 8"/>
+<path d="M99.5 551.333C99.5 578.676 77.5572 600.833 50.5 600.833C23.4428 600.833 1.5 578.676 1.5 551.333C1.5 523.99 23.4428 501.833 50.5 501.833C77.5572 501.833 99.5 523.99 99.5 551.333Z" stroke="black"/>
+<path d="M99.5 651C99.5 678.343 77.5572 700.5 50.5 700.5C23.4428 700.5 1.5 678.343 1.5 651C1.5 623.657 23.4428 601.5 50.5 601.5C77.5572 601.5 99.5 623.657 99.5 651Z" stroke="black"/>
+<line x1="1" y1="600.833" x2="100" y2="600.833" stroke="black" stroke-dasharray="6 8"/>
+<rect x="1.5" y="501.5" width="98" height="199" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(0.703545 0.710651 -0.703545 0.710651 1 501.333)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(-0.703545 0.710651 0.703545 0.710651 100 501.333)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(0.703545 0.710651 -0.703545 0.710651 1 601.333)" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="140.716" y2="-0.5" transform="matrix(-0.703545 0.710651 0.703545 0.710651 100 601.333)" stroke="black" stroke-dasharray="6 8"/>
+</svg>
