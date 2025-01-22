@@ -1,0 +1,8 @@
+<svg width="598" height="287" viewBox="0 0 598 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M69.7999 0V54.6667H619.2" stroke="black" stroke-width="0.5"/>
+<path d="M619.2 259.667H1.46661V287" stroke="black" stroke-width="0.5"/>
+<path d="M138.133 123H1.46661V259.667" stroke="black" stroke-dasharray="6 8"/>
+<line x1="69.2999" y1="123" x2="69.2999" y2="54.6667" stroke="black" stroke-dasharray="6 8"/>
+<path d="M138.133 123C138.133 198.479 76.9455 259.667 1.46661 259.667" stroke="black" stroke-width="0.5"/>
+<path d="M138.133 123C138.133 85.2606 107.539 54.6667 69.7999 54.6667" stroke="black" stroke-width="0.5"/>
+</svg>
