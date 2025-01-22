@@ -336,11 +336,11 @@ body h3 {
 
     .about__me {
         grid-column: 1 / -1;
-        margin: 0 24px;
+        margin: 0 15%;
         text-align: center;
         padding-right: 0px;
         width: auto;
-        padding-top: 40px;
+        padding-top: 100px;
     }
 
     .about__me p {
@@ -534,10 +534,10 @@ body h3 {
     }
     
     #reading__img3 {
-        height: 106px;
+        height: 146px;
         width: auto;
         pointer-events: none;
-        padding-top: 8px;
+        padding-top: 46px;
         padding-bottom: 8px;
     }
     
@@ -996,7 +996,7 @@ body h3 {
     }
 
     .content--container {
-        height: 320px;
+        height: 400px;
         min-width: 10px;
         align-items: center;
         justify-content: center;
