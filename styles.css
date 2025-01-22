@@ -327,8 +327,8 @@ body h3 {
     }
     
     .main__content h1 {
-        font-size: 1.6rem;
-        letter-spacing: 0.16rem; 
+        font-size: 2rem;
+        letter-spacing: 0.2rem; 
         margin: 0 60px;
         margin-top: 1rem;
         padding-top: 90px;
@@ -336,7 +336,7 @@ body h3 {
 
     .about__me {
         grid-column: 1 / -1;
-        margin: 0 15%;
+        margin: 0 10%;
         text-align: center;
         padding-right: 0px;
         width: auto;
@@ -344,8 +344,8 @@ body h3 {
     }
 
     .about__me p {
-        font-size: 0.8rem;
-        letter-spacing: 0.08rem; 
+        font-size: 1rem;
+        letter-spacing: 0.1rem; 
         margin: 0 16px;
         margin-top: 0rem;
     }
@@ -492,28 +492,28 @@ body h3 {
     .Reading__column__1 {
         padding: 0 5px;
         padding-left: 20px;
-        width: 150px;
+        width: 170px;
     }
     
     .Reading__column__2 {
         padding: 0 5px;
         padding-right: 20px;
         text-align: right;
-        width: 150px;
+        width: 170px;
     }
     
     .main__container__Reading h2 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         padding-bottom: 10px;
     }
 
     .main__container__Reading h3 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     
     .main__container__Reading p {
-        font-size: 0.6rem;
-        letter-spacing: 0.04rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.08rem;
         font-weight: 400;
         color: #888686;
         padding-bottom: 10px;
@@ -534,10 +534,10 @@ body h3 {
     }
     
     #reading__img3 {
-        height: 146px;
+        height: 120px;
         width: auto;
         pointer-events: none;
-        padding-top: 46px;
+        padding-top: 20px;
         padding-bottom: 8px;
     }
     
@@ -567,7 +567,7 @@ body h3 {
     }
     
     .Non-fiction2 {
-        padding-top: 22px;
+        padding-top: 24px;
     }
     
     .Fiction2 {
@@ -579,7 +579,7 @@ body h3 {
     }
     
     .TyrannyOfMerit {
-        padding-top: 23px;
+        padding-top: 31px;
     }
 }
 
@@ -985,7 +985,7 @@ body h3 {
         color: #888686;
         font-weight: 300;
         font-size: 0.6rem;
-        letter-spacing: 0.04rem;
+        letter-spacing: 0.03rem;
         padding-bottom: 2px;
         padding-left: 0px;
         border: none;
@@ -1030,8 +1030,8 @@ body h3 {
     }
 
     .content P {
-        font-size: 0.6rem;
-        letter-spacing: 0.03 rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.04 rem;
     }
 
     .Adventurer1 {
@@ -1039,7 +1039,7 @@ body h3 {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 360px;
+        padding-top: 540px;
         padding-bottom: 1rem;
         padding-left: 0px;
         padding-right: 0px;
@@ -1069,9 +1069,9 @@ body h3 {
     }
 
     .hippie {
-        width: 280px;
+        width: 340px;
         padding: 0px 16px;
-        padding-top: 200px;
+        padding-top: 360px;
         text-align: justify;
     }
 }
