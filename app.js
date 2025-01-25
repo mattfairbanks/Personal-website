@@ -6,8 +6,6 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 });
 
-
-
 function openWriting(evt, WritingPiece) {
   // Declare all variables
   var i, content, tablinks;

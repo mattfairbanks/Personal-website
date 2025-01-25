@@ -136,14 +136,14 @@ body h3 {
 
     .navbar__menu {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-rows: 50px 50px 50px 50px;
         margin: 0;
         width: 100%;
         position: absolute;
         top: -1000px;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 30vh;
         z-index: -1;
     }
 
@@ -151,8 +151,6 @@ body h3 {
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 99;
-        height: 50vh;
         font-size: 1.6 rem;
     }
     
@@ -162,6 +160,8 @@ body h3 {
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background: #393939;
+        display: block;
+        cursor: pointer;
     }
 
     .navbar__item {
@@ -170,7 +170,7 @@ body h3 {
 
     .navbar__links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.6rem;
         width: 100%;
         display: table;
     }
@@ -180,11 +180,6 @@ body h3 {
         top: 20%;
         right: 5%;
         transform: translate(5%, 20%);
-    }
-
-    .navbar__toggle .bar {
-        display: block;
-        cursor: pointer;
     }
 
     #mobile-menu.is-active .bar:nth-child(2) {
@@ -237,9 +232,7 @@ body h3 {
 
 .about__me p {
     font-size: 1.5rem;
-    font-family: "Zilla Slab", serif;
     font-weight: 300;
-    font-style: normal;
     text-align: left;
     letter-spacing: 0.15rem;
     color: #393939;
@@ -254,6 +247,9 @@ body h3 {
     height: 500px;
     width: auto;
     pointer-events: none;
+    position: absolute;
+    left:-100px;
+    background-color: #FF573300;
 }
 
 .main__img2--container {
@@ -272,24 +268,26 @@ body h3 {
 
 @media screen and (max-height: 680px) and (min-width: 480px) {
     .main__img2--container {
-        display: none;
-    }
+        position: static;
+        float: right;
+        padding-top: 130px;
+    } 
 }
 
-@media screen and (max-height: 540px) {
+@media screen and (max-width: 480px) and (max-height: 640px) {
     .main__img2--container {
         display: none;
     }
 }
 
 @media screen and (max-width: 1040px) {
-    .about__me {
+        .about__me {
         padding-right: 50px;
-        width: 475px;
+        width: 475px; 
     }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 940px) {
     .main__img--container {
         display: none;
     }
@@ -363,6 +361,45 @@ body h3 {
     }
 }
 
+@media screen and (max-height: 480px) and (max-width: 800px) and (min-width: 480px) {
+    
+    .main {
+        height: 400px;
+        overflow-y: auto;
+        touch-action: auto;
+        scrollbar-width: none;
+        padding: 10px 0px;
+    }
+
+    .main__content h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem; 
+        margin-top: 1rem;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .about__me {
+        padding-top: 60px;
+        width: 450px;
+        height: 80px;
+    }
+
+    .about__me p {
+        font-size: 1rem;
+        letter-spacing: 0.1rem; 
+        margin: 0 16px;
+        margin-top: 0rem;
+    }
+
+    .main__img2--container {
+        position: static;
+        float: right;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    } 
+}
+
 /* --------------------------------------- Reading CSS ----------------------------------------- */
 
 .main__container__Reading {
@@ -401,29 +438,31 @@ body h3 {
     width: auto;
 }
 
-.Reading__columns {
+.Reading__column {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2.5rem 4rem 5rem 2.5rem 3rem 4rem 5rem 2.5rem 3rem;
     place-items: top;
     justify-content: center;
     height: auto;
     z-index: 1;
     width: fixed;
+    padding: 0px 40px;
 }
 
-.Reading__column__1 {
-    padding: 0 40px;
-    width: 280px;
+.Reading_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.Reading__column__2 {
-    padding-right: 40px;
+.left-column {
+    width: 230px;
+    padding-right: 30px;
+}
+
+.right-column {
+    width: 230px;
+    padding-left: 30px;
     text-align: right;
-    width: 260px;
-}
-
-.main__container__Reading h2 {
-    padding-bottom: 20px;
 }
 
 .main__container__Reading p {
@@ -431,102 +470,65 @@ body h3 {
     letter-spacing: 0.04rem;
     font-weight: 400;
     color: #888686;
-    padding-bottom: 20px;
-}
-
-.Fiction {
-    padding-top: 20px;
-}
-
-.Drama-Poetry {
-    padding-top: 20px;
-}
-
-.Non-fiction2 {
-    padding-top: 40px;
-}
-
-.Fiction2 {
-    padding-top: 58px;
-}
-
-.Drama-Poetry2 {
-    padding-top: 58px;
-}
-
-.TyrannyOfMerit {
-    padding-top: 20px;
+    padding-top: 0.2rem;
 }
 
 /* Reading- Responsive */
 
 @media screen and (max-width: 480px) {
-    .navbar {
-        height: 40px;
-    }
-    
-    .navbar__container {
-        height: 40px;
-    }
-    
     .main__container__Reading {
         display: block;
-        justify-content: center;
+        text-align: center;
         z-index: 1;
         width: fixed;
         padding: 0px;
     }
 
-    .Reading__columns {
+    .Reading__column {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1.5rem 4.2rem 5rem 1.5rem 3.2rem 4.2rem 3.3rem 1.5rem 3rem;
         place-items: top;
         justify-content: center;
         height: auto;
         z-index: 1;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        width: fixed;
+        padding: 0px 40px;
+        text-align: left;
     }
     
-    .Reading__column__1 {
-        padding: 0 5px;
-        padding-left: 20px;
-        width: 170px;
+    .Reading_row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
-    .Reading__column__2 {
-        padding: 0 5px;
-        padding-right: 20px;
+    .left-column {
+        width: 140px;
+        padding-right: 10px;
+    }
+    
+    .right-column {
+        width: 140px;
+        padding-left: 10px;
         text-align: right;
-        width: 170px;
     }
     
     .main__container__Reading h2 {
         font-size: 0.8rem;
+        letter-spacing: 0.04rem;
         padding-bottom: 10px;
     }
 
     .main__container__Reading h3 {
         font-size: 0.8rem;
+        letter-spacing: 0.04rem;
     }
     
     .main__container__Reading p {
-        font-size: 0.8rem;
-        letter-spacing: 0.08rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.035rem;
         font-weight: 400;
         color: #888686;
-        padding-bottom: 10px;
-    }
-
-    .first__img--container__Reading {
-        justify-self: center;
-        text-align: center;
-    }
-
-    .second__img--container__Reading {
-        justify-self: center;
-        text-align: center;
+        padding-top: 0rem;
     }
 
     #reading__img1 {
@@ -534,10 +536,10 @@ body h3 {
     }
     
     #reading__img3 {
-        height: 120px;
+        height: 95px;
         width: auto;
         pointer-events: none;
-        padding-top: 20px;
+        padding-top: 5px;
         padding-bottom: 8px;
     }
     
@@ -546,41 +548,83 @@ body h3 {
     }
     
     #reading__img4 {
-        height: 100px;
+        height: 95px;
         width: auto;
         pointer-events: none;
         padding-top: 8px;
-        justify-self: center;
-        text-align: center;
+        padding-bottom: 5px;
+        background-color: #FF573300;
+    }
+}
+
+@media screen and (max-height: 480px) and (max-width: 800px) {
+    .main__container__Reading {
+        height: 340px;
+        overflow-y: auto;
+        touch-action: auto;
+        scrollbar-width: none;
+        padding: 10px 0px;
+        padding-bottom: 120px;
     }
 
-    .Fiction {
-        padding-top: 10px;
-    }
-    
-    .Drama-Poetry {
-        padding-top: 10px;
+    .Reading__column {
+        display: grid;
+        grid-template-rows: 1.5rem 3.2rem 4rem 1.5rem 2.2rem 3.2rem 4rem 1.5rem 3rem;
+        place-items: top;
+        justify-content: center;
+        height: auto;
+        z-index: 1;
+        width: fixed;
+        padding: 0px 20px;
+        text-align: left;
     }
 
-    .Drama-Poetry p {
-        padding-bottom: 8px;
+    .left-column {
+        width: 170px;
+        padding-right: 10px;
     }
     
-    .Non-fiction2 {
-        padding-top: 24px;
+    .right-column {
+        width: 170px;
+        padding-left: 10px;
+        text-align: right;
+    }
+
+    .main__container__Reading h2 {
+        font-size: 0.8rem;
+        letter-spacing: 0.04rem;
+        padding-bottom: 10px;
+    }
+
+    .main__container__Reading h3 {
+        font-size: 0.8rem;
+        letter-spacing: 0.04rem;
     }
     
-    .Fiction2 {
-        padding-top: 31px;
+    .main__container__Reading p {
+        font-size: 0.7rem;
+        letter-spacing: 0.035rem;
+        font-weight: 400;
+        color: #888686;
+        padding-top: 0rem;
     }
-    
-    .Drama-Poetry2 {
-        padding-top: 32px;
-    }
-    
-    .TyrannyOfMerit {
-        padding-top: 31px;
-    }
+
+
+#reading__img1 {
+    height: 370px;
+    width: auto;
+    pointer-events: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#reading__img2 {
+    height: 370px;
+    width: auto;
+    pointer-events: none;
+    padding-top: 20px;
+    padding-right: 20px;
+}
 }
 
 /* --------------------------------------- Doing CSS ----------------------------------------- */
@@ -596,18 +640,17 @@ body h3 {
     overflow-y: scroll;
     z-index: 2;
     position: absolute;
-    top: 12%;
+    top: 8%;
     left: 0;
     background-color: #FF573300;
-    pointer-events: auto;
-    touch-action: none;
+    touch-action: auto;
     -ms-overflow-style: none; 
     scrollbar-width: none;
 }
 
 .Swipe__zone__Doing > div {
     scroll-snap-type: y mandatory;
-    height: 100vh; 
+    height: auto; 
 }
 
 .Swipe__zone__Doing ::-webkit-scrollbar {
@@ -619,6 +662,7 @@ body h3 {
     scroll-snap-align: start;
     scroll-snap-stop: always;
     background-color: #FF573300;
+    padding-top: 3%;
 }
 
 .Greatest__Hits--container {
@@ -626,6 +670,8 @@ body h3 {
     scroll-snap-align: start;
     scroll-snap-stop: always;
     background-color: #FF573300;
+    padding-top: 5%;
+    padding-bottom: 100px;
 }
 
 #Doing_img {
@@ -665,7 +711,7 @@ body h3 {
     height: auto;
     z-index: 1;
     width: 100%;
-    padding: 15px 60px;
+    padding: 10px 60px;
     justify-items: left;
     background-color: #FF573300;
 }
@@ -706,17 +752,10 @@ body h3 {
 /*-- Doing Responsive --*/
 
 @media screen and (max-width: 480px) {
-    .navbar {
-        height: 40px;
-    }
-    
-    .navbar__container {
-        height: 40px;
-    }
-
     .Swipe__zone__Doing {
-        width: 100%;
-        height: 88vh;
+        width: auto;
+        height: 100vh;
+        top: 8%;
     }
 
     .GH__Top--container {
@@ -740,6 +779,8 @@ body h3 {
         height: auto;
         scroll-snap-align: none;
         scroll-snap-stop: none;
+        scroll-snap-type: y mandatory;
+        padding-bottom: 160px;
     }
 
     .Swipe__zone__Doing > div {
@@ -748,10 +789,6 @@ body h3 {
     }
 
     .Recent__items--container {
-        scroll-snap-type: y mandatory;
-    }
-
-    .Greatest__Hits--container {
         scroll-snap-type: y mandatory;
     }
 
@@ -768,7 +805,8 @@ body h3 {
         margin-left: auto;
         margin-right: auto;
         height: 140px;
-        width: auto;
+        width: 140px;
+        background-color: #FF573300;
     }
 
     .Event--container h2 {
@@ -827,8 +865,51 @@ body h3 {
         padding-bottom: 5px;
         background-color: #FF573300;
     }
-
 }    
+
+@media screen and (max-height: 480px) and (max-width: 800px) {
+    #Event__img {
+        height: 140px;
+    }
+
+    .Swipe__zone__Doing {
+        width: auto;
+        top: auto;
+    }
+
+    .Greatest__Hits--container {
+        padding-bottom: 160px;
+    }
+
+    .GH__Top--container {
+        justify-self: center;
+        text-align: center;
+        background-color: #FF573300;
+        padding-bottom: 40px;
+    }
+
+    .GH__Top--container h1 {
+        font-size: 1.2rem;
+    }
+
+    .GH__Down--container {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .GH__Down--container h1 {
+        font-size: 0px;
+    }
+
+    .GH__Down--container h3 {
+        font-size: 1.2rem;
+        letter-spacing: 0.06rem;
+        color: #888686;
+        font-weight: 400;
+        padding-bottom: 5px;
+        background-color: #FF573300;
+    }
+}
 
 /* --------------------------------------- Writing CSS ----------------------------------------- */
 
@@ -918,16 +999,10 @@ body h3 {
     padding-right: 10px;
 }
 
-.Adventurer3 {
-    height: 0px;
-    width: 0px;
-    font-size: 0rem;
-}
-
 .hippie {
     width: 600px;
     padding: 0px 50px;
-    padding-top: 180px;
+    padding-top: 160px;
     text-align: justify;
 }
 
@@ -950,15 +1025,7 @@ body h3 {
 
 /*-- Writing Responsive --*/
 
-@media screen and (max-width: 480px) {
-    .navbar {
-        height: 40px;
-    }
-    
-    .navbar__container {
-        height: 40px;
-    }
-    
+@media screen and (max-width: 480px) {    
     #writing__img1 {
         display: none;
     }
@@ -984,9 +1051,9 @@ body h3 {
         background-color: inherit;
         color: #888686;
         font-weight: 300;
-        font-size: 0.6rem;
-        letter-spacing: 0.03rem;
-        padding-bottom: 2px;
+        font-size: 0.7rem;
+        letter-spacing: 0.035rem;
+        padding-bottom: 0px;
         padding-left: 0px;
         border: none;
         outline: none;
@@ -996,7 +1063,7 @@ body h3 {
     }
 
     .content--container {
-        height: 400px;
+        height: 53vh;
         min-width: 10px;
         align-items: center;
         justify-content: center;
@@ -1039,7 +1106,7 @@ body h3 {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 540px;
+        padding-top: 600px;
         padding-bottom: 1rem;
         padding-left: 0px;
         padding-right: 0px;
@@ -1053,15 +1120,6 @@ body h3 {
         padding-left: 20px;
     }
 
-    .Adventurer3 {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-        width: 100%;
-        padding-left: 88px;
-        background-color: #FF573300;
-    }
-
     .Adventurer_tot {
         display: block;
         align-items: center;
@@ -1071,7 +1129,118 @@ body h3 {
     .hippie {
         width: 340px;
         padding: 0px 16px;
-        padding-top: 360px;
+        padding-top: 400px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-height: 480px) and (max-width: 800px) and (min-width: 480px) {
+   
+    #writing__img1 {
+        display: none;
+    }
+
+    .main__container__Writing {
+        height: 340px;
+        overflow-y: auto;
+        touch-action: auto;
+        scrollbar-width: none;
+        display: block;
+        width: 100%;
+    }
+
+    .titles {
+        text-align: left;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-bottom: 15px;
+        height: auto;
+    }
+
+    .titles button {
+        display: flex;
+        background-color: inherit;
+        color: #888686;
+        font-weight: 300;
+        font-size: 0.7rem;
+        letter-spacing: 0.035rem;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .content--container {
+        height: auto;
+        min-height: 120px;
+        min-width: 10px;
+        align-items: center;
+        justify-content: center;
+        overflow: scroll;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
+    }
+
+    .second__img--container__Writing {
+        display: block;
+        width: 0px;
+        height: auto;
+    }
+
+    #writing__img2 {
+        height: 0px;
+        width: auto;
+    }
+
+    #writing__img3 {
+        width: 250px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .third__img--container__Writing {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .content P {
+        font-size: 0.8rem;
+        letter-spacing: 0.04 rem;
+    }
+
+    .Adventurer1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 1rem;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .Adventurer2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .Adventurer_tot {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hippie {
+        width: 480px;
+        padding: 0px 16px;
         text-align: justify;
     }
 }
