@@ -1,0 +1,18 @@
+<svg width="660" height="109" viewBox="0 0 660 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="605.698" cy="54.5" r="53" transform="rotate(90 605.698 54.5)" stroke="black"/>
+<circle cx="499.054" cy="54.5" r="53" transform="rotate(90 499.054 54.5)" stroke="black"/>
+<line x1="552.698" y1="1" x2="552.698" y2="108" stroke="black" stroke-dasharray="6 8"/>
+<rect x="659.054" y="1.5" width="106" height="213" transform="rotate(90 659.054 1.5)" stroke="black" stroke-dasharray="6 8"/>
+<line x1="659.552" y1="1.35355" x2="552.552" y2="108.354" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="151.321" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 659.198 108)" stroke="black" stroke-dasharray="6 8"/>
+<line x1="552.552" y1="1.35355" x2="445.552" y2="108.354" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="151.321" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 552.198 108)" stroke="black" stroke-dasharray="6 8"/>
+<circle cx="160.5" cy="54.5" r="53" transform="rotate(90 160.5 54.5)" stroke="black"/>
+<circle cx="53.8568" cy="54.5" r="53" transform="rotate(90 53.8568 54.5)" stroke="black"/>
+<line x1="107.5" y1="1" x2="107.5" y2="108" stroke="black" stroke-dasharray="6 8"/>
+<rect x="213.857" y="1.5" width="106" height="213" transform="rotate(90 213.857 1.5)" stroke="black" stroke-dasharray="6 8"/>
+<line x1="214.354" y1="1.35355" x2="107.354" y2="108.354" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="151.321" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 214 108)" stroke="black" stroke-dasharray="6 8"/>
+<line x1="107.354" y1="1.35355" x2="0.353781" y2="108.354" stroke="black" stroke-dasharray="6 8"/>
+<line y1="-0.5" x2="151.321" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 107 108)" stroke="black" stroke-dasharray="6 8"/>
+</svg>
