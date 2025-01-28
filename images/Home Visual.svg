@@ -1,0 +1,43 @@
+<svg width="627" height="646" viewBox="0 0 627 646" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="162.411" cy="480.685" r="130.846" stroke="black" stroke-width="0.5"/>
+<circle cx="162.411" cy="480.685" r="95.887" stroke="black" stroke-width="0.5"/>
+<circle cx="162.411" cy="480.685" r="60.9281" stroke="black" stroke-width="0.5"/>
+<circle cx="162.411" cy="480.685" r="43.4486" stroke="black" stroke-width="0.5"/>
+<path d="M313.608 218.493L464.985 480.685H162.232L313.608 218.493Z" stroke="black" stroke-dasharray="6 8"/>
+<circle cx="313.608" cy="218.493" r="157.065" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="130.846" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="113.366" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="95.887" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="82.7774" stroke="black" stroke-width="0.5"/>
+<circle cx="314.045" cy="218.93" r="71.8527" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="60.9281" stroke="black" stroke-width="0.5"/>
+<circle cx="313.608" cy="218.493" r="43.4486" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="157.065" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="130.846" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="113.366" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="82.7774" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="60.9281" stroke="black" stroke-width="0.5"/>
+<circle cx="42.6767" cy="157.315" r="43.4486" stroke="black" stroke-width="0.5"/>
+<g filter="url(#filter0_d_5_58)">
+<circle cx="464.805" cy="480.685" r="157.065" stroke="black" stroke-width="0.5" shape-rendering="crispEdges"/>
+</g>
+<circle cx="464.805" cy="480.685" r="130.846" stroke="black" stroke-width="0.5"/>
+<circle cx="464.805" cy="480.685" r="113.366" stroke="black" stroke-width="0.5"/>
+<circle cx="464.805" cy="480.685" r="82.7774" stroke="black" stroke-width="0.5"/>
+<circle cx="464.805" cy="480.685" r="60.9281" stroke="black" stroke-width="0.5"/>
+<circle cx="464.805" cy="480.685" r="43.4486" stroke="black" stroke-width="0.5"/>
+<line x1="162.226" y1="481.15" x2="-126.184" y2="366.659" stroke="black" stroke-dasharray="6 8"/>
+<line x1="314.371" y1="219.855" x2="42.5654" y2="157.803" stroke="black" stroke-dasharray="6 8"/>
+<defs>
+<filter id="filter0_d_5_58" x="303.49" y="323.37" width="322.63" height="322.63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5_58"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5_58" result="shape"/>
+</filter>
+</defs>
+</svg>

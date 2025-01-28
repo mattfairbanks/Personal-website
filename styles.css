@@ -955,7 +955,7 @@ picture:has(#Event__img) {
     text-align: left;
     padding-top: 15px;
     height: 600px;
-    min-width: 200px;
+    width: 200px;
 }
 
 .titles button {
@@ -990,7 +990,7 @@ picture:has(#Event__img) {
     justify-content: center;
     height: 600px;
     min-width: 550px;
-    overflow: scroll;
+    overflow-y: scroll;
     -ms-overflow-style: none; 
     scrollbar-width: none;
 }
@@ -1013,8 +1013,8 @@ picture:has(#Event__img) {
 }
 
 .hippie {
-    width: 600px;
-    padding: 0px 50px;
+    width: 500px;
+    padding: 0px 0px;
     padding-top: 160px;
     text-align: justify;
 }
@@ -1080,7 +1080,7 @@ picture:has(#Event__img) {
         min-width: 10px;
         align-items: center;
         justify-content: center;
-        overflow: scroll;
+        overflow-y: scroll;
         -ms-overflow-style: none; 
         scrollbar-width: none;
     }
@@ -1140,8 +1140,8 @@ picture:has(#Event__img) {
     }
 
     .hippie {
-        width: 340px;
-        padding: 0px 16px;
+        width: 308px;
+        padding: 0px 0px;
         padding-top: 400px;
         text-align: justify;
     }
@@ -1192,7 +1192,7 @@ picture:has(#Event__img) {
         min-width: 10px;
         align-items: center;
         justify-content: center;
-        overflow: scroll;
+        overflow-y: scroll;
         -ms-overflow-style: none; 
         scrollbar-width: none;
     }
@@ -1252,8 +1252,8 @@ picture:has(#Event__img) {
     }
 
     .hippie {
-        width: 480px;
-        padding: 0px 16px;
+        width: 448px;
+        padding: 0px 0px;
         text-align: justify;
     }
 }
